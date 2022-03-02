@@ -1,0 +1,17 @@
+$basepoint-full: 1680;
+$basepoint-pc: 1440;
+$basepoint-tb: 750;
+$basepoint-sp: 375;
+
+$breakpoints: (
+'sm': 'screen and (max-width: 374px)',
+'md': 'screen and (max-width: 768px)',
+'lg': 'screen and (max-width: 989px)',
+'xl': 'screen and (max-width: 1399px)',
+) !default;
+
+@mixin media($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

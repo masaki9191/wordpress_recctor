@@ -1,0 +1,419 @@
+/* -------------------------------- 
+
+common
+
+-------------------------------- */
+
+.fv{
+	height: 40vw;
+	background-image: url(../img/fv.jpg);
+	background-size: cover;
+	background-position: center bottom -12vw;
+}
+.fv .copy{
+	margin-top: 16.5vw;
+	text-align: center;
+	color: #fff;
+}
+.fv .copy h3{
+	font-size: .9vw;
+}
+.fv .copy h2{
+	margin: .5vw 0;
+	font-size: 2vw;
+	letter-spacing: 1.25vw;
+}
+.fv .copy h1{
+	font-size: 1.1vw;
+	letter-spacing: .2vw;
+}
+.page-head{
+	background-color: #3571a4;
+	padding: 2vw 0;
+	color: #fff;
+	margin-top: -5.25vw;
+	text-align: center;
+}
+.page-head a:hover{
+	opacity: 0.6;
+}
+.pankuzu{
+	margin-bottom: 1.5vw;
+	text-align: center;
+}
+.pankuzu li{
+	display: inline-block;
+	margin: 0 .1vw;
+	vertical-align: middle;
+	font-size: .9vw;
+}
+.pankuzu li img{
+	width: .75vw;
+	margin-left: .5vw;
+}
+.page-nav{
+	text-align: center;
+}
+.page-nav li{
+	display: inline-block;
+	margin-right: 2.5vw;
+	font-size: 1.05vw;
+	font-weight: bold;
+	text-align: left;
+}
+.page-nav li:last-child{
+	margin-right: 0;
+}
+.page-nav li img{
+	width: 1.25vw;
+    margin-left: .5vw;
+    position: relative;
+    top: 0.2vw;
+}
+.page-nav li span{
+	display: block;
+	font-size: 0.8vw;
+	opacity: 0.2;
+}
+.pagination li{
+	margin-right: 1vw;
+}
+.pagination img{
+	width: 1.9vw;
+	height: auto;
+}
+.pagination .active-page{
+	text-decoration: underline;
+	color: #3571a4;
+}
+.pagination a:hover{
+	opacity: 0.6;
+}
+.post-nav li img {
+    top: 0.3vw;
+}
+.post-nav li:first-child img{
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	margin-right: 0;
+	left: -.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+
+.fv .copy {
+    margin-top: 22.5vw;
+}
+.fv .copy h3 {
+    font-size: 2.7vw;
+}
+.fv .copy h2 {
+    margin: 1.5vw 0;
+    font-size: 5vw;
+    letter-spacing: 3vw;
+}
+.fv .copy h1 {
+    font-size: 3.3vw;
+    letter-spacing: .4vw;
+}
+.fv {
+    height: 80vw;
+    background-image: url(../img/fv.jpg);
+    background-size: cover;
+    background-position: center bottom 0vw;
+}
+.page-head {
+    background-color: #3571a4;
+    padding: 4vw 0 2vw;
+    color: #fff;
+    margin-top: -16.25vw;
+    text-align: center;
+}
+.pankuzu {
+    margin-bottom: 4vw;
+    text-align: center;
+    padding: 0 4vw;
+}
+.pankuzu li {
+    display: inline-block;
+    margin: 0 0vw;
+    vertical-align: middle;
+    font-size: 2.7vw;
+}
+.pankuzu li img {
+    width: 2.2vw;
+    margin-left: 1vw;
+}
+.page-nav {
+    text-align: center;
+    padding: 0 6vw;
+}
+.page-nav li {
+    display: inline-block;
+    margin-right: 0;
+    margin: 0 1.5vw;
+    font-size: 3.15vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.page-nav li a{
+	letter-spacing: .6vw;
+}
+.page-nav li span {
+    display: block;
+    font-size: 2.4vw;
+    opacity: 0.2;
+}
+.page-nav li img {
+    width: 3.25vw;
+    margin-left: 1vw;
+    position: relative;
+    top: 0.6vw;
+}
+.pagination{
+	margin-bottom: 12vw;
+}
+.pagination li {
+    margin-right: 3vw;
+}
+.pagination img {
+    width: 4.7vw;
+    height: auto;
+    position: relative;
+    top: .4vw;
+}
+
+}
+
+
+/* -------------------------------- 
+
+service
+
+-------------------------------- */
+
+.services{
+	position: relative;
+}
+.services .img{
+	width: 24vw;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.service2 .img{
+	left: auto;
+	right: 0;
+}
+.services .text{
+	padding: 3vw 3vw 6vw 28vw;
+}
+.service2 .text{
+	padding: 3vw 28vw 6vw 3vw;
+}
+.services .main-cta{
+	position: absolute;
+	bottom: -2vw;
+	right: 0;
+}
+.service2 .main-cta{
+	position: absolute;
+	bottom: -2vw;
+	left: : 0;
+	right: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.services .img {
+    width: 100%;
+    padding: 25vw 0;
+    position: relative;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin-bottom: 6vw;
+}
+.services .text {
+    padding: 0vw 6vw 14vw 6vw;
+}
+.services .main-cta {
+    position: absolute;
+    bottom: -4vw;
+    left: 6vw;
+    right: auto;
+    display: inline-block;
+}
+
+}
+
+
+
+/* -------------------------------- 
+
+team
+
+-------------------------------- */
+
+.page-team-head{
+	padding: 2vw 0 10vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.page-team-head {
+    padding: 4vw 0 25vw;
+}
+
+}
+
+
+/* -------------------------------- 
+
+works-detail
+
+-------------------------------- */
+
+.work-title .tags{
+	float: left;
+	position: relative;
+	top: 0px;
+}
+.work-title .tag{
+	color: #3562a4;
+    padding-right: 10px;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    letter-spacing: 0;
+}
+.work-title .tag:after{
+	content: "/";
+	position: absolute;
+	top: 0;
+	right: 3%;
+}
+.work-title .tag:last-child{
+	padding-right: 0;
+}
+.work-title .tag:last-child:after{
+	display: none;
+}
+
+.building table{
+	width: 100%;
+}
+.building th{
+	background-color: #eef1f4;
+	padding: 1vw; 
+	border: 1px solid #d1d7e0;
+}
+.building td{
+	background-color: #f5f7fa;
+	padding: 1vw; 
+	border: 1px solid #d1d7e0;
+}
+.building .main-cta{
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.work-title .tag {
+    color: #3562a4;
+    padding-right: 10px;
+    position: relative;
+    float: left;
+    font-size: 3vw;
+    letter-spacing: 0;
+}
+.building .fl20 {
+    width: 100%;
+    float: none;
+    margin-bottom: 1vw;
+}
+.building .main-cta:before {
+    width: 18vw;
+    height: 18vw;
+}
+.building .main-cta {
+    padding: 2.5vw 27vw 2.5vw 9.75vw;
+    font-size: 4vw;
+}
+
+}
+
+
+/* -------------------------------- 
+
+news
+
+-------------------------------- */
+
+.page-news .n-post:last-child{
+	margin-bottom: 6vw;
+}
+.page-head-detail .pankuzu li:last-child{
+	display: block;
+	margin-top: 0.5vw;
+}
+
+.post-title .cat{
+	display: inline-block;
+	top: 0;
+	left: 0;
+	padding: .25vw .5vw .2vw;
+    font-size: .8vw;
+	color: #fff;
+	font-weight: bold;
+	background-color: #13325f;
+	z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+
+.post-title .cat {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    padding: .75vw 1.5vw .6vw;
+    font-size: 2.4vw;
+    color: #fff;
+    font-weight: bold;
+    background-color: #13325f;
+    z-index: 2;
+}
+
+}
+
+
+/* -------------------------------- 
+
+contact
+
+-------------------------------- */
+
+input[type="radio"]{
+	width: 1vw;
+	height: 1vw;
+}
+textarea{
+	height: 15vw;
+}
+
+@media only screen and (max-width: 768px) {
+
+input[type="radio"] {
+    width: 3vw;
+    height: 3vw;
+}
+textarea{
+	height: 45vw;
+}
+
+}

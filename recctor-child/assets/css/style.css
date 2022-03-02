@@ -1,0 +1,619 @@
+.copy-cta {
+  padding: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .copy-cta {
+    padding: 8vw 0 6vw;
+    text-align: center;
+  }
+}
+
+.copy-cta .m-inner {
+  padding-bottom: calc(60 / 1920 * 100vw);
+  padding-top: calc(60 / 1920 * 100vw);
+  position: relative;
+  width: calc(1080 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .copy-cta .m-inner {
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 90vw;
+  }
+}
+
+.copy-cta__atsushi {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .copy-cta__atsushi {
+    display: none;
+  }
+}
+
+.copy-cta__atsushi__inner {
+  position: relative;
+}
+
+.copy-cta__atsushi__image {
+  font-size: 0;
+  width: calc(215 / 1920 * 100vw);
+}
+
+.copy-cta__atsushi__image img {
+  height: auto;
+  width: 100%;
+}
+
+.copy-cta__atsushi__text {
+  bottom: calc(5 / 1920 * 100vw);
+  position: absolute;
+  right: calc(230 / 1920 * 100vw);
+  width: calc(566 / 1920 * 100vw);
+}
+
+.copy-cta__atsushi__text img {
+  height: auto;
+  width: 100%;
+}
+
+.copy2 {
+  padding: 0;
+  text-align: left;
+}
+
+.copy2 .m-inner {
+  padding-bottom: calc(60 / 1920 * 100vw);
+  padding-top: calc(60 / 1920 * 100vw);
+  position: relative;
+  width: calc(1100 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .copy2 .m-inner {
+    padding-bottom: calc(65 / 750 * 100vw);
+    padding-top: calc(35 / 750 * 100vw);
+    width: 100%;
+  }
+}
+
+.copy2 h2 {
+  align-items: center;
+  display: flex;
+  font-size: calc(35 / 1920 * 100vw);
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .copy2 h2 {
+    display: block;
+    font-size: calc(34 / 750 * 100vw);
+    letter-spacing: 0.04em;
+    margin-left: auto;
+    white-space: nowrap;
+    width: calc(500 / 750 * 100vw);
+  }
+}
+
+.copy2 h2 img {
+  margin-right: calc(14 / 1920 * 100vw);
+  padding-right: 0;
+  position: static;
+  width: calc(308 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .copy2 h2 img {
+    margin-left: 0;
+    margin-right: auto;
+    width: calc(360 / 750 * 100vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .copy2 h2 span {
+    display: block;
+  }
+}
+
+.copy2__atsushi {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.copy2__atsushi__inner {
+  margin-right: calc(-1100 / 1920 * 100vw);
+  position: relative;
+}
+
+.copy2__atsushi__image {
+  font-size: 0;
+  width: calc(227 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .copy2__atsushi__image {
+    width: calc(230 / 750 * 100vw);
+  }
+}
+
+.copy2__atsushi__image img {
+  height: auto;
+  width: 100%;
+}
+
+.copy2__atsushi__text {
+  bottom: calc(5 / 1920 * 100vw);
+  left: calc(245 / 1920 * 100vw);
+  position: absolute;
+  width: calc(566 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .copy2__atsushi__text {
+    bottom: calc(15 / 750 * 100vw);
+    left: calc(255 / 750 * 100vw);
+    width: calc(375 / 750 * 100vw);
+  }
+}
+
+.copy2__atsushi__text img {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .copy2__atsushi__text img.is-pc {
+    display: none;
+  }
+}
+
+.copy2__atsushi__text img.is-sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .copy2__atsushi__text img.is-sp {
+    display: block;
+  }
+}
+
+.l-container {
+  margin: 0 auto;
+  width: calc(1130 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .l-container {
+    width: 100%;
+  }
+}
+
+.c-button {
+  border: calc(4 / 1920 * 100vw) solid #fc990c;
+  border-radius: calc(34 / 1920 * 100vw);
+  color: #fc990c;
+  display: inline-flex;
+  font-size: calc(22 / 1920 * 100vw);
+  font-weight: bold;
+  height: calc(68 / 1920 * 100vw);
+  justify-content: center;
+  letter-spacing: 0;
+  padding: calc(11 / 1920 * 100vw) calc(30 / 1920 * 100vw) 0;
+}
+
+@media screen and (max-width: 768px) {
+  .c-button {
+    border: calc(4 / 750 * 100vw) solid #fc990c;
+    border-radius: calc(50 / 750 * 100vw);
+    font-size: calc(24 / 750 * 100vw);
+    height: calc(96 / 750 * 100vw);
+    padding: calc(22 / 750 * 100vw) calc(30 / 750 * 100vw) 0;
+  }
+}
+
+.c-button--type1 {
+  background-color: #fc990c;
+  color: #ffffff;
+}
+
+.c-button--type1:hover {
+  background-color: #ffffff;
+  color: #fc990c;
+}
+
+@media screen and (max-width: 768px) {
+  .c-button--type1:hover {
+    background-color: #fc990c;
+    color: #ffffff;
+  }
+}
+
+.c-button--type2:hover {
+  background-color: #fc990c;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .c-button--type2:hover {
+    background-color: #ffffff;
+    color: #fc990c;
+  }
+}
+
+.p-mainVisual {
+  background-color: #f5fafb;
+  background-image: url(../images/mainVisual.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(880 / 1920 * 100vw);
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual {
+    background-image: none;
+    height: auto;
+  }
+}
+
+.p-mainVisual__inner {
+  margin: 0 auto;
+  position: relative;
+  width: calc(1920 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__inner {
+    padding: calc(130 / 750 * 100vw) calc(30 / 750 * 100vw) calc(32 / 750 * 100vw);
+    width: 100%;
+  }
+}
+
+.p-mainVisual__textBox {
+  background-color: #ffffff;
+  border-radius: calc(30 / 1920 * 100vw);
+  filter: drop-shadow(0px 0px 32px #dbebe7);
+  height: calc(570 / 1920 * 100vw);
+  left: calc(160 / 1920 * 100vw);
+  padding-top: calc(70 / 1920 * 100vw);
+  position: absolute;
+  top: calc(200 / 1920 * 100vw);
+  width: calc(812 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox {
+    border-radius: calc(30 / 750 * 100vw);
+    height: calc(973 / 750 * 100vw);
+    overflow: hidden;
+    position: static;
+    width: calc(688 / 750 * 100vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__inner {
+    height: 100%;
+    padding-top: calc(60 / 750 * 100vw);
+    position: relative;
+  }
+}
+
+.p-mainVisual__textBox__text {
+  background-image: url(../images/mainVisual_text.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: calc(321 / 1920 * 100vw);
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: 150vw;
+  white-space: nowrap;
+  width: calc(604 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__text {
+    height: calc(272 / 750 * 100vw);
+    width: calc(507 / 750 * 100vw);
+  }
+}
+
+.p-mainVisual__textBox__buttonList {
+  margin-top: calc(40 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__buttonList {
+    margin-top: calc(40 / 750 * 100vw);
+  }
+}
+
+.p-mainVisual__textBox__buttonList > ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p-mainVisual__textBox__buttonList > ul > li {
+  margin-left: calc(14 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__buttonList > ul > li {
+    margin-left: calc(16 / 750 * 100vw);
+  }
+}
+
+.p-mainVisual__textBox__buttonList > ul > li:first-child {
+  margin-left: 0;
+}
+
+.p-mainVisual__textBox__iPhone {
+  left: calc(745 / 1920 * 100vw);
+  position: absolute;
+  top: calc(175 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__iPhone {
+    left: calc(20 / 750 * 100vw);
+    top: calc(525 / 750 * 100vw);
+    z-index: 1;
+  }
+}
+
+.p-mainVisual__textBox__iPhone__inner {
+  position: relative;
+}
+
+.p-mainVisual__textBox__iPhone__video {
+  left: calc(30 / 1920 * 100vw);
+  position: absolute;
+  top: calc(36 / 1920 * 100vw);
+  width: calc(181 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__iPhone__video {
+    left: calc(38 / 750 * 100vw);
+    top: calc(48 / 750 * 100vw);
+    width: calc(225 / 750 * 100vw);
+  }
+}
+
+.p-mainVisual__textBox__iPhone__video video {
+  height: auto;
+  width: 100%;
+}
+
+.p-mainVisual__textBox__iPhone__frame {
+  width: calc(272 / 1920 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__iPhone__frame {
+    width: calc(344 / 750 * 100vw);
+  }
+}
+
+.p-mainVisual__textBox__iPhone__frame img {
+  height: auto;
+  width: 100%;
+}
+
+.p-mainVisual__textBox__atsushi {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .p-mainVisual__textBox__atsushi {
+    bottom: calc(0 / 750 * 100vw);
+    display: block;
+    font-size: 0;
+    left: calc(240 / 750 * 100vw);
+    position: absolute;
+  }
+}
+
+.p-mainVisual__textBox__atsushi__inner {
+  position: relative;
+}
+
+.p-mainVisual__textBox__atsushi__image {
+  width: calc(386 / 750 * 100vw);
+}
+
+.p-mainVisual__textBox__atsushi__image img {
+  height: auto;
+  width: 100%;
+}
+
+.p-mainVisual__textBox__atsushi__text {
+  left: calc(396 / 750 * 100vw);
+  position: absolute;
+  top: calc(90 / 750 * 100vw);
+  width: calc(35 / 750 * 100vw);
+}
+
+.p-mainVisual__textBox__atsushi__text img {
+  height: auto;
+  width: 100%;
+}
+
+.p-kv {
+  background-color: #f5fafb;
+  height: calc(660 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv {
+    height: calc(760 / 375 * 100vw);
+    overflow: hidden;
+    width: 100vw;
+  }
+}
+
+.p-kv__inner {
+  height: calc(660 / 1440 * 100vw);
+  padding-top: calc(140 / 1440 * 100vw);
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__inner {
+    display: block;
+    height: calc(760 / 375 * 100vw);
+    padding-top: calc(70 / 375 * 100vw);
+  }
+}
+
+.p-kv__textBox {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: calc(467 / 1440 * 100vw);
+  width: calc(540 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__textBox {
+    height: calc(303 / 375 * 100vw);
+    margin: 0 auto;
+    width: calc(350 / 375 * 100vw);
+  }
+}
+
+.p-kv__textBox__inner {
+  padding: calc(40 / 1440 * 100vw) 0;
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__textBox__inner {
+    padding: calc(32 / 375 * 100vw) 0;
+  }
+}
+
+.p-kv__textBox__copy {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: calc(281 / 1440 * 100vw);
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: 150vw;
+  white-space: nowrap;
+  width: calc(448 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__textBox__copy {
+    height: calc(169 / 375 * 100vw);
+    width: calc(270 / 375 * 100vw);
+  }
+}
+
+.p-kv__textBox__buttonList {
+  margin-top: calc(30 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__textBox__buttonList {
+    margin-top: calc(20 / 375 * 100vw);
+  }
+}
+
+.p-kv__textBox__buttonList > ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p-kv__textBox__buttonList > ul > li {
+  margin-left: calc(12 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__textBox__buttonList > ul > li {
+    margin-left: calc(8 / 375 * 100vw);
+  }
+}
+
+.p-kv__textBox__buttonList > ul > li:first-child {
+  margin-left: 0;
+}
+
+.p-kv__videoBox {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: calc(-111 / 1440 * 100vw);
+  height: calc(582 / 1440 * 100vw);
+  position: absolute;
+  right: 0;
+  width: calc(535 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__videoBox {
+    bottom: calc(-42 / 375 * 100vw);
+    height: calc(412 / 375 * 100vw);
+    left: calc(35 / 375 * 100vw);
+    width: calc(378 / 375 * 100vw);
+  }
+}
+
+.p-kv__videoBox__inner {
+  position: relative;
+}
+
+.p-kv__videoBox__videoArea {
+  height: calc(500 / 1440 * 100vw);
+  left: calc(77 / 1440 * 100vw);
+  overflow: hidden;
+  position: absolute;
+  top: calc(82 / 1440 * 100vw);
+  width: calc(278 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__videoBox__videoArea {
+    height: calc(353 / 375 * 100vw);
+    left: calc(54 / 375 * 100vw);
+    top: calc(59 / 375 * 100vw);
+    width: calc(197 / 375 * 100vw);
+  }
+}
+
+.p-kv__videoBox__videoArea__inner {
+  position: relative;
+}
+
+.p-kv__videoBox__videoArea__video {
+  left: calc(1 / 1440 * 100vw);
+  position: absolute;
+  top: calc(-51 / 1440 * 100vw);
+  width: calc(276 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+  .p-kv__videoBox__videoArea__video {
+    left: calc(1 / 375 * 100vw);
+    top: calc(-36 / 375 * 100vw);
+    width: calc(195 / 375 * 100vw);
+  }
+}
+
+.p-kv__videoBox__videoArea__video video {
+  height: auto;
+  width: 100%;
+}

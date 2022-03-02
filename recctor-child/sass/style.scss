@@ -1,0 +1,149 @@
+@charset "utf-8";
+@import "foundation/_foundation_inc";
+@import "layout/_layout_inc";
+@import "object/_object_inc";
+
+// .fv .mov .video-area {
+//   // left: 23.9%;
+//   // width: 45.9%;
+//   left: 19.5%;
+//   top: 31.8%;
+//   width: 48.4%;
+//   @include media(md) {
+//     left: 21.5%;
+//     top: 17.5%;
+//     width: 57.4%;
+//   }
+// }
+//
+// .flb {
+//   &-copy {
+//     display: none;
+//     margin: 1vw 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     @include media(md) {
+//       margin: 4vw 0 2vw;
+//     }
+//
+//     &__logo {
+//       flex-shrink: 0;
+//       width: 8vw;
+//       display: flex;
+//       align-items: center;
+//       @include media(md) {
+//         width: 22vw;
+//       }
+//
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//     }
+//
+//     &__text {
+//       margin-left: 0.3vw;
+//       flex-shrink: 0;
+//       font-size: 1.2vw;
+//       font-weight: bold;
+//       @include media(md) {
+//         margin-left: 0.8vw;
+//         font-size: 3vw;
+//       }
+//     }
+//   }
+//
+//   &-maincopy {
+//     width: 34vw;
+//     @include media(md) {
+//       width: 71vw;
+//     }
+//
+//     img {
+//       width: 100%;
+//       height: auto;
+//     }
+//   }
+//
+//   &-subcopy {
+//     margin: 1vw 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     @include media(md) {
+//       margin: 4vw 0 2vw;
+//     }
+//
+//     &__logo {
+//       flex-shrink: 0;
+//       width: 10vw;
+//       display: flex;
+//       align-items: center;
+//       margin-right: 1vw;
+//       @include media(md) {
+//         width: 24vw;
+//         margin-right: 1.6vw;
+//       }
+//
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//     }
+//
+//     &__textBox {
+//       line-height: 1.5;
+//       margin-left: 0.6vw;
+//       @include media(md) {
+//         margin-left: 1vw;
+//       }
+//
+//       &__text {
+//         flex-shrink: 0;
+//         font-size: 1.6vw;
+//         font-weight: 700;
+//         @include media(md) {
+//           font-size: 3.8vw;
+//         }
+//       }
+//     }
+//
+//     &__separator {
+//       flex-shrink: 0;
+//       font-size: 1.6vw;
+//       font-weight: 700;
+//       @include media(md) {
+//         font-size: 3.8vw;
+//       }
+//     }
+//   }
+// }
+//
+// .is-pc {
+//   display: block;
+//   @include media(md) {
+//     display: none;
+//   }
+//
+//   &--inline {
+//     display: inline-block;
+//     @include media(md) {
+//       display: none;
+//     }
+//   }
+// }
+//
+// .is-sp {
+//   display: none;
+//   @include media(md) {
+//     display: block;
+//   }
+//
+//   &--inline {
+//     display: none;
+//     @include media(md) {
+//       display: inline-block;
+//     }
+//   }
+// }

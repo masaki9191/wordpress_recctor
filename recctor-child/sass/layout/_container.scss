@@ -1,0 +1,7 @@
+.l-container {
+  width: calc(1130 / #{$basepoint-pc} * 100vw);
+  margin: 0 auto;
+  @include media(md) {
+    width: 100%;
+  }
+}

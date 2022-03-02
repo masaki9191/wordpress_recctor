@@ -1,0 +1,46 @@
+.c-button {
+  display: inline-flex;
+  justify-content: center;
+  font-size: calc(22 / #{$basepoint-full} * 100vw);
+  height: calc(68 / #{$basepoint-full} * 100vw);
+  line-height: calc(68 / #{$basepoint-full} * 100vw);
+  border-radius: calc(34 / #{$basepoint-full} * 100vw);
+  color: $color-3;
+  font-weight: bold;
+  padding: 0 calc(30 / #{$basepoint-full} * 100vw);
+  letter-spacing: 0;
+  border: calc(2 / #{$basepoint-full} * 100vw) solid $color-3;
+  @include media(md) {
+    font-size: calc(12 / #{$basepoint-sp} * 100vw);
+    height: calc(48 / #{$basepoint-sp} * 100vw);
+    line-height: calc(45 / #{$basepoint-sp} * 100vw);
+    border-radius: calc(25 / #{$basepoint-sp} * 100vw);
+    padding: 0 calc(15 / #{$basepoint-sp} * 100vw);
+    border: calc(2 / #{$basepoint-sp} * 100vw) solid $color-3;
+  }
+
+  &--type1 {
+    color: $color-2;
+    background-color: $color-3;
+
+    &:hover {
+      background-color: $color-2;
+      color: $color-3;
+      @include media(md) {
+        background-color: $color-3;
+        color: $color-2;
+      }
+    }
+  }
+
+  &--type2 {
+    &:hover {
+      background-color: $color-3;
+      color: $color-2;
+      @include media(md) {
+        background-color: $color-2;
+        color: $color-3;
+      }
+    }
+  }
+}

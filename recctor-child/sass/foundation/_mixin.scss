@@ -1,0 +1,5 @@
+@mixin hide-text {
+  text-indent: 150vw;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,135 @@
+.p-kv {
+  background-color: $color-1;
+  height: calc(660 / #{$basepoint-pc} * 100vw);
+  @include media(md) {
+    width: 100vw;
+    overflow: hidden;
+    height: calc(760 / #{$basepoint-sp} * 100vw);
+  }
+
+  &__inner {
+    height: calc(660 / #{$basepoint-pc} * 100vw);
+    padding-top: calc(140 / #{$basepoint-pc} * 100vw);
+    position: relative;
+    @include media(md) {
+      height: calc(760 / #{$basepoint-sp} * 100vw);
+      padding-top: calc(70 / #{$basepoint-sp} * 100vw);
+      display: block;
+    }
+  }
+
+  &__textBox {
+    width: calc(540 / #{$basepoint-pc} * 100vw);
+    height: calc(467 / #{$basepoint-pc} * 100vw);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include media(md) {
+      width: calc(350 / #{$basepoint-sp} * 100vw);
+      height: calc(303 / #{$basepoint-sp} * 100vw);
+      margin: 0 auto;
+    }
+
+    &__inner {
+      padding: calc(40 / #{$basepoint-pc} * 100vw) 0;
+      @include media(md) {
+        padding: calc(32 / #{$basepoint-sp} * 100vw) 0;
+      }
+    }
+
+    &__copy {
+      @include hide-text;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: calc(448 / #{$basepoint-pc} * 100vw);
+      height: calc(281 / #{$basepoint-pc} * 100vw);
+      margin: 0 auto;
+      @include media(md) {
+        width: calc(270 / #{$basepoint-sp} * 100vw);
+        height: calc(169 / #{$basepoint-sp} * 100vw);
+      }
+    }
+
+    &__buttonList {
+      margin-top: calc(30 / #{$basepoint-pc} * 100vw);
+      @include media(md) {
+        margin-top: calc(20 / #{$basepoint-sp} * 100vw);
+      }
+
+      & > ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > li {
+          margin-left: calc(12 / #{$basepoint-pc} * 100vw);
+          @include media(md) {
+            margin-left: calc(8 / #{$basepoint-sp} * 100vw);
+          }
+
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &__videoBox {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(535 / #{$basepoint-pc} * 100vw);
+    height: calc(582 / #{$basepoint-pc} * 100vw);
+    position: absolute;
+    right: 0;
+    bottom: calc(-111 / #{$basepoint-pc} * 100vw);
+    @include media(md) {
+      width: calc(378 / #{$basepoint-sp} * 100vw);
+      height: calc(412 / #{$basepoint-sp} * 100vw);
+      bottom: calc(-42 / #{$basepoint-sp} * 100vw);
+      left: calc(35 / #{$basepoint-sp} * 100vw);
+    }
+
+    &__inner {
+      position: relative;
+    }
+
+    &__videoArea {
+      overflow: hidden;
+      width: calc(278 / #{$basepoint-pc} * 100vw);
+      height: calc(500 / #{$basepoint-pc} * 100vw);
+      position: absolute;
+      top: calc(82 / #{$basepoint-pc} * 100vw);
+      left: calc(77 / #{$basepoint-pc} * 100vw);
+      @include media(md) {
+        width: calc(197 / #{$basepoint-sp} * 100vw);
+        height: calc(353 / #{$basepoint-sp} * 100vw);
+        top: calc(59 / #{$basepoint-sp} * 100vw);
+        left: calc(54 / #{$basepoint-sp} * 100vw);
+      }
+
+      &__inner {
+        position: relative;
+      }
+
+      &__video {
+        position: absolute;
+        top: calc(-51 / #{$basepoint-pc} * 100vw);
+        left: calc(1 / #{$basepoint-pc} * 100vw);
+        width: calc(276 / #{$basepoint-pc} * 100vw);
+        @include media(md) {
+          top: calc(-36 / #{$basepoint-sp} * 100vw);
+          left: calc(1 / #{$basepoint-sp} * 100vw);
+          width: calc(195 / #{$basepoint-sp} * 100vw);
+        }
+
+        video {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

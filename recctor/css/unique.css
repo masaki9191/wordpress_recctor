@@ -1,0 +1,63 @@
+
+/* font */
+html,body{
+	font-family: proxima-nova, "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+}
+.mf{
+	font-family: proxima-nova, "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+}
+
+/* color */
+html,body{
+	color: #112e5d;
+	background-color: #f0f6f9;
+}
+body.page{
+	background-color: #fff;
+}
+.mc{color: #099ddc;}
+.mcbg{background-color: #099ddc;}
+.subc{color: #f0f6f9;}
+.subcbg{background-color: #f0f6f9;}
+.tc{color: #112e5d;}
+.tcbg{background-color: #112e5d;}
+.servicebg{background-color: #f4fbfe;}
+.contactbg{background-color: #dfeef6;}
+.gradient{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f0f6f9+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f0f6f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f0f6f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#f0f6f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f6f9',GradientType=0 ); /* IE6-9 */
+}
+
+/* border */
+.mcborder{
+	border: 1px solid #7acaec;
+}
+.subcborder{
+	border: 1px solid #f0f6f9;
+}
+.subcborder-top{
+	border-top: 2px solid #f0f6f9;
+}
+
+/* padding */
+
+@media only screen and (max-width: 768px) {
+.pt2{padding-top: 4vw;}
+.pb2{padding-bottom: 4vw;}
+.ptb2{padding: 4vw 0;}
+.sp-mb0{padding-bottom: 0;}
+}
+
+
+
+
+
+
+
+
+
+
